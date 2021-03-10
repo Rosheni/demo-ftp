@@ -1,0 +1,8 @@
+server:
+  port: 8121
+ftphost: localhost
+ftpport: 21
+ftpusername: ftpuser
+
+loc:
+  source: ftp://${ftpusername}@${ftphost}:${ftpport}/consume?fileName=file.txt&password=1234&noop=true
